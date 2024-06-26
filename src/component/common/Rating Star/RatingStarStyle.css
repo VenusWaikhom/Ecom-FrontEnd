@@ -1,0 +1,15 @@
+.RatingStars {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  gap: 0.2rem;
+  color: #c4c4c4;
+}
+
+.RatingFillStar {
+  color: #ffc701;
+}
+
+.Gap2 {
+  margin-right: 2rem;
+}

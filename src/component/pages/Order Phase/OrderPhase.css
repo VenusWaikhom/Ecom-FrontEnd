@@ -1,0 +1,365 @@
+.DetailsWrapper {
+  margin: 2rem 3rem 0 3rem;
+}
+
+.TopOrderWrapper {
+  margin: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TopOrderPhase {
+  position: relative;
+  display: flex;
+  width: 10rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.TopOrderIcon {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.ActiveTopOrderIcon {
+  background-color: #3c83e6;
+  border: 1px solid #3c83e6;
+  color: white;
+}
+
+.TopOrderWording {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  color: grey;
+}
+
+.ActiveTopOrderWording {
+  color: #3c83e6;
+}
+
+.MiddleLine {
+  border-top: 2px solid rgba(128, 128, 128, 0.336);
+  height: 2rem;
+  width: 15rem;
+}
+
+.ActiveMiddleLine {
+  border-top: 2px solid #3c83e6;
+}
+
+.DetailsHeader {
+  padding-left: 2rem;
+  margin-top: 4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.423);
+  padding-bottom: 2.5rem;
+}
+
+.BasicDetailInput {
+  margin: 0 2rem 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.BasicDetailsWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.BasicDetailsHeader {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.BasicDetailsInput {
+  height: 3rem;
+  width: 90%;
+  background-color: rgba(128, 128, 128, 0.345);
+  border: none;
+  outline: none;
+}
+
+.OderPhase1NextWrapper {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.OderPhase1Next {
+  margin-left: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 15rem;
+  border-radius: 10px;
+  background-color: #3c83e6;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.OderPhase1Next:hover {
+  background-color: rgba(128, 128, 128, 0.122);
+  color: #184b93;
+}
+
+.DetailsAddressAndNextBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DetailsAddressWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.DetalisDeliveryAddress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.DiliveryAddressRadioWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.DiliveryAddressRadio {
+  justify-self: center;
+  align-self: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.ActiveDiliveryAddressRadio {
+  background-color: black;
+}
+
+.DeliveryAddressPlace {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.DeliveryAddressIcon {
+  font-size: 2rem;
+}
+
+.DeliveryAddressLocation {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.ButtonFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.ManageAddress {
+  margin-left: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 15rem;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 2rem;
+  color: black;
+  cursor: pointer;
+}
+
+.PaymentWrapper {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.PaymentMethodWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.InCoupan {
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;
+}
+
+.Coupan {
+  color: #3c83e6;
+  font-weight: 600;
+}
+
+.CardDetailsInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}
+
+.CardNumberDetailsWrapper {
+  border-bottom: 2px solid grey;
+}
+
+.CardNumber {
+  padding-left: 0.5rem;
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+}
+
+.MCL {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.CardExpDate {
+  padding-left: 0.5rem;
+  width: 4rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+}
+
+.CardCVV {
+  padding-left: 0.5rem;
+  width: 4rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+}
+
+.OtherPaymentOption {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.OtherPaymentWrapper {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.OtherPaymentOptionRadioWrapper {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.OtherPaymentOptionRadio {
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+}
+
+.AvtiveOtherPaymentOptionRadio {
+  background-color: black;
+}
+
+.PaymentNextWrapper {
+  background-color: #dbdbdb;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.PaymentDeliveryWrapper {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-bottom: 2px solid #aaaaaa;
+}
+
+.PaymentTotalWrapper {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.PaymentNextBtn {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  height: 3.5rem;
+  width: 15rem;
+  background: #3c83e6;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.1em;
+  align-self: center;
+  justify-self: center;
+  color: white;
+  cursor: pointer;
+}

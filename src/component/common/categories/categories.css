@@ -1,0 +1,70 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.categoryHeader-Wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.category-heading {
+  margin: 2.5rem 0 0.8rem 0;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 56px;
+  letter-spacing: 0.145em;
+  color: #000000;
+}
+
+.category-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.category-item {
+  display: flex;
+  padding: 0.5rem;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CategoryImage {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.category-text {
+  font-weight: 500;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Passive div {
+  background-color: white;
+}
+
+.ActiveRadio {
+  background-color: black;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+}
+
+.PassiveRadio {
+  height: 0.5rem;
+  width: 0.5rem;
+}

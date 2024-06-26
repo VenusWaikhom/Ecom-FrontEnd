@@ -1,0 +1,931 @@
+* {
+  font-family: poppins;
+}
+
+/* 393 */
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 2px;
+  }
+
+  h4 {
+    margin-bottom: 0.5rem;
+  }
+
+  div.top-left {
+    gap: 0.3rem;
+    margin: 0;
+  }
+
+  div.ellipses {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  a.logoContainer {
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 5px;
+  }
+
+  img.logo {
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  div.top-LeftText1 {
+    font-size: 1rem;
+    line-height: 1em;
+    letter-spacing: 0;
+  }
+
+  div.top-LeftText2 {
+    font-size: 0.4rem;
+    line-height: 1em;
+    letter-spacing: 0;
+  }
+
+  input.Search-Bar {
+    font-size: 1rem;
+    width: 4rem;
+    height: 1rem;
+  }
+
+  div.top-right {
+    gap: 0.2rem;
+  }
+
+  SVG.Topicon {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  div.divider {
+    height: 2rem;
+  }
+
+  div.top-RightText {
+    font-size: 0.5rem;
+    width: 6rem;
+    line-height: 1.3em;
+  }
+
+  div.SlideContainer {
+    margin-top: 0.5rem;
+    height: 13rem;
+  }
+
+  SVG.arrow {
+    display: none;
+  }
+
+  div.radio-wrapper {
+    gap: 0.3rem;
+    left: 40%;
+    bottom: 0.5rem;
+  }
+
+  div.radio {
+    height: 0.5rem;
+    width: 0.5rem;
+  }
+
+  div.category-heading {
+    margin: 0.9rem 0 0.2rem 0;
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+
+  div.category-items {
+    gap: 0.18rem;
+  }
+
+  div.category-item {
+    padding: 0.1rem;
+    gap: 0.5rem;
+  }
+
+  div.CategoryImage {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  div.category-text {
+    width: 3.2rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  div.Passive,
+  div.Active {
+    display: none;
+  }
+
+  div.ProductWrapper {
+    margin: 1rem 0;
+
+    padding: 0;
+  }
+
+  div.ProductHead {
+    padding: 3px;
+  }
+
+  div.ProductHeader {
+    font-size: 1.5rem;
+  }
+
+  div.ViewMore {
+    font-size: 0.7rem;
+  }
+
+  div.NewArrivalItemWrapper {
+    gap: 0.2rem;
+  }
+
+  div.NewArrivalProduct {
+    font-size: 0.7rem;
+  }
+
+  div.NewArrivalPrice {
+    font-size: 0.5rem;
+  }
+
+  div.ItemAligment {
+    margin-top: 0.5rem;
+  }
+
+  div.ItemsWrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 0.2rem 0 0.2rem;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+  }
+
+  img.cardimages {
+    height: 7rem;
+    width: 5rem;
+  }
+
+  div.CardDescription {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    width: 6rem;
+  }
+
+  div.CardPrice {
+    font-size: 0.6rem;
+  }
+
+  button.Ads {
+    height: 10rem;
+    width: 13rem;
+    grid-column: -1/-3;
+    grid-row: 8/6;
+  }
+
+  div.ProductCarouselWrapper {
+    height: 8rem;
+    margin: 0;
+  }
+
+  button.react-multiple-carousel__arrow {
+    display: none;
+  }
+
+  div.HomeTopProduct {
+    margin: 0;
+  }
+
+  div.FlexWrapper {
+    margin-top: 0;
+    margin-left: 10px;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  div.ProfileDetails {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  div.ProfileInfoHeader {
+    align-self: flex-start;
+    display: inherit;
+    font-size: 1.2rem;
+  }
+
+  img.ProfilePicture {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  div.EditOption {
+    gap: 0.5rem;
+  }
+
+  SVG.EditIcon {
+    font-size: 1rem;
+  }
+  div.Edit {
+    font-size: 1rem;
+  }
+
+  div.ProfileItems {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  div.ProfileIndex {
+    font-size: 1rem;
+  }
+
+  div.GnederOption {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  div.Gender {
+    justify-content: flex-start;
+  }
+
+  div.Email {
+    width: 20rem;
+  }
+
+  div.ProfileInfo {
+    width: 22rem;
+    font-size: 1.1rem;
+  }
+
+  div.GenderType {
+    font-size: 0.9rem;
+  }
+
+  div.Radio {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  div.ActiveGenderRadio {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+
+  div.LinkItemWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  div.ProfileLinkList {
+    border-top: 2px solid rgba(97, 95, 95, 0.282);
+    border-bottom: 2px solid rgba(97, 95, 95, 0.282);
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    margin-top: 1rem;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  a.ProfileLinkItem,
+  div.ProfileLinkItem {
+    width: 11.5rem;
+    height: 3rem;
+    font-size: 0.9rem;
+    border-radius: 12px;
+  }
+
+  SVG.ProfileLinkIcon {
+    font-size: 0.9rem;
+  }
+
+  div.ProfileLinkLogOut {
+    align-self: center;
+    margin-bottom: 2rem;
+  }
+
+  div.ProductInfo {
+    margin: 1.5rem 0.5rem 1.5rem 0.5rem;
+  }
+
+  div.ProductMainImage {
+    height: 18rem;
+    width: 11.5rem;
+  }
+
+  img.ProductImage {
+    width: 11.5rem;
+    height: 18rem;
+  }
+
+  div.ProductPageImageWrapper {
+    grid-template-columns: 1fr;
+  }
+
+  div.ProductMoreImages {
+    flex-direction: row;
+    height: 2.5rem;
+  }
+
+  img.ProductMoreImage {
+    height: 2.5rem;
+    width: 2rem;
+  }
+
+  div.ProductPageHead {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+
+  h3.ProductPageHeader {
+    margin: 0;
+    line-height: 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  div.ProductDescription {
+    width: 10rem;
+  }
+
+  SVG.ProductHeartIcon {
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
+  p.ProductPageInfo {
+    font-size: 0.7rem;
+    line-height: 0.6rem;
+    letter-spacing: 0.001em;
+    margin: 0.5rem 0;
+  }
+
+  p.ProductPageFlex {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.2rem;
+    line-height: 1rem;
+    margin-bottom: 0;
+  }
+
+  div.ProductPageQtyPriceWrapper {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  div.ProductPageQty {
+    font-size: 0.8rem;
+    gap: 0.2rem;
+  }
+
+  div.QtyEllipseWrapper {
+    gap: 0.5rem;
+  }
+
+  div.QtyEllipse {
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  div.ProductPagePriceWrapper {
+    margin-top: 1rem;
+    gap: 0.1rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  div.ProductPagePrice {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  div.ProductPageBtn {
+    margin-bottom: 2rem;
+  }
+
+  div.blank {
+    display: none;
+  }
+
+  div.AddToCart {
+    font-size: 1rem;
+    height: 3rem;
+    width: 8rem;
+  }
+
+  a.ProductBuyNow {
+    font-size: 1rem;
+    height: 3rem;
+    width: 8rem;
+  }
+
+  h3.CartHeader {
+    font-size: 1.6rem;
+    padding: 0;
+  }
+
+  img.CaerIcon {
+    width: 10rem;
+  }
+
+  div.FillRequest {
+    font-size: 1.4rem;
+  }
+
+  div.NotYet {
+    font-size: 1rem;
+  }
+
+  a.ContinueLink {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+
+  div.CartItemWrapper {
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin: 0.5rem;
+    gap: 3rem;
+  }
+
+  div.CartItem {
+    position: relative;
+    grid-template-columns: 1fr;
+  }
+
+  div.Delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.6rem;
+  }
+
+  img.CartImage {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  div.cartImgProduct {
+    justify-content: space-evenly;
+  }
+
+  div.CartProductName {
+    font-size: 1.4rem;
+  }
+
+  div.CartDeiveryDate {
+    font-size: 1rem;
+  }
+
+  div.Qty {
+    width: 12rem;
+    height: 3rem;
+  }
+
+  div.CartPriceMore {
+    justify-content: center;
+  }
+
+  div.CartItemPrice {
+    font-size: 1.4rem;
+  }
+
+  div.TotalCalWrapper {
+    margin: 0.5rem;
+  }
+
+  div.CartItemDetailsWrapper {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  div.Header {
+    font-size: 1.2rem;
+  }
+
+  img.EmptyOrderIcon {
+    width: 50%;
+  }
+
+  div.NothingToShow {
+    font-size: 1.8rem;
+  }
+
+  div.GetSomeOrder {
+    font-size: 0.8rem;
+  }
+
+  a.ShopMore {
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.3rem;
+  }
+
+  div.OrderDetails {
+    margin: 0 0.5rem 0 0.5rem;
+    gap: 3rem;
+  }
+
+  div.OrderDetail {
+    grid-template-columns: 1fr 2fr;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+  }
+
+  img.OrderImage {
+    height: 170px;
+    width: 130px;
+  }
+
+  div.OrderReturnSupportBtn {
+    grid-column: -1/ -3;
+  }
+
+  div.OrderName {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  div.OrderRating {
+    gap: 1rem;
+  }
+
+  a.OrderReturn {
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 11rem;
+  }
+
+  div.OrderMore {
+    padding-bottom: 2rem;
+  }
+
+  a.OrderSupport {
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 11rem;
+  }
+
+  h2.AddMore {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  div.HelpServiceHeader {
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+  }
+
+  div.HelpServicePara {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+
+  div.UploadProofHeader {
+    font-size: 1.4rem;
+  }
+
+  div.UploadProofType {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  div.Types {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  div.UploadIcon {
+    font-size: 1.4rem;
+  }
+
+  div.UploadWording {
+    font-size: 1rem;
+  }
+
+  a.SupReSubbtn {
+    margin-bottom: 2rem;
+    width: 15rem;
+  }
+
+  input.ReturnMessageInput {
+    width: 90vw;
+    height: 10rem;
+  }
+
+  img.submitLogo {
+    width: 100vw;
+  }
+
+  div.WishListWrapper {
+    padding: 0;
+    background-position: 50% 10%;
+    background-size: 130%;
+  }
+
+  img.emptyWishlistLogo {
+    width: 100vw;
+  }
+
+  h2.SaveYourWishListHeader {
+    font-size: 1.3rem;
+  }
+
+  div.WishListItemsWrapper {
+    margin: 1rem 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.WishListBtnWrapper {
+    margin-top: 3rem;
+    gap: 1rem;
+  }
+
+  a.WishListBtn {
+    height: 3rem;
+    width: 11rem;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  div.DetailsWrapper {
+    margin: 1rem;
+  }
+
+  div.TopOrderPhase {
+    gap: 0.1rem;
+  }
+
+  div.TopOrderWrapper {
+    margin: 0;
+  }
+
+  SVG.TopOrderIcon {
+    height: 1.2rem;
+    width: 1.2rem;
+    font-size: 0.1rem;
+    padding: 0.2rem;
+  }
+
+  div.TopOrderWording {
+    display: none;
+  }
+
+  div.MiddleLine {
+    height: 0.5rem;
+  }
+
+  h4.DetailsHeader {
+    padding-left: 0;
+    margin: 2rem 0 2rem 0;
+    padding-bottom: 5px;
+    font-size: 1.4rem;
+  }
+
+  div.BasicDetailInput {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  div.DetailsAddressAndNextBtn {
+    flex-direction: column;
+  }
+
+  ul.DetailsAddressWrapper {
+    padding-inline-start: 1rem;
+  }
+
+  li.DetalisDeliveryAddress {
+    gap: 1rem;
+  }
+
+  div.DiliveryAddressRadioWrapper {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  div.DiliveryAddressRadio {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+
+  div.DeliveryAddressIcon {
+    font-size: 1.2rem;
+  }
+
+  h3.DeliveryAddressPlace {
+    align-items: center;
+    font-size: 1rem;
+    gap: 0.5rem;
+    line-height: 1rem;
+  }
+
+  div.DeliveryAddressLocation {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    font-weight: 300;
+  }
+
+  div.ButtonFlex {
+    width: 100vw;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  div.OderPhase1Next {
+    height: 3.5rem;
+    width: 14rem;
+    font-size: 1.2rem;
+  }
+
+  div.ManageAddress {
+    height: 3.5rem;
+    width: 14rem;
+    font-size: 1.2rem;
+  }
+
+  div.PaymentWrapper {
+    grid-template-columns: 1fr;
+  }
+
+  div.PaymentMethodWrapper {
+    gap: 2rem;
+  }
+
+  div.InCoupan {
+    justify-content: space-between;
+    width: 90vw;
+  }
+
+  div.CardDetailsInfo {
+    padding-left: 1rem;
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  div.OtherPaymentOption {
+    margin-top: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div.PaymentDeliveryWrapper {
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+
+  div.PaymentTotalWrapper {
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+
+  div.PaymentNextBtn {
+    height: 3rem;
+    width: 12rem;
+  }
+
+  div.AddressItem {
+    margin: 0 1rem;
+  }
+
+  h3.DeliveryAddressPlace {
+    margin-bottom: 0.3rem;
+  }
+
+  div.DeliveryAddressLocation {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+
+  div.EditRemoveAddress {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    width: 5rem;
+  }
+
+  a.EditAddress {
+    font-size: 1rem;
+    gap: 0.3rem;
+  }
+
+  a.RemoveAddress {
+    font-size: 1rem;
+  }
+
+  h1.AddNewAdressHeader {
+    margin-left: 1rem;
+    font-size: 1.6rem;
+  }
+  div.AddAddress {
+    margin-left: 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  div.AddNewAddressInputItem {
+    width: 99vw;
+  }
+
+  div.AddNewAddressInputAddress {
+    grid-column: 1/2;
+  }
+
+  input.AddNewAddressNewAddress {
+    width: 90%;
+  }
+
+  div.AddAdressLinkWrapper {
+    margin-bottom: 3rem;
+  }
+
+  div.Coupons {
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+
+  div.middleBox {
+    width: 22rem;
+    height: 12rem;
+    gap: 0.2rem;
+  }
+
+  div.CardLeftWrapper {
+    gap: 0.5rem;
+  }
+
+  div.CouponHeader {
+    font-size: 1rem;
+  }
+
+  div.CouponDescription {
+    font-size: 0.45rem;
+  }
+
+  div.expDate {
+    font-size: 0.45rem;
+  }
+
+  div.CouponCuttOffData {
+    font-size: 1.1rem;
+  }
+
+  div.CouponCutOffWording {
+    font-size: 0.8rem;
+  }
+
+  div.WishListItemWrapper {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  div.ImgIngfoStar {
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  img.WishListImg {
+    height: 15rem;
+  }
+
+  div.WishlistStar {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  div.WishListItem {
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  div.WishlistStar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  div.WriteReview {
+    margin-bottom: 2rem;
+  }
+
+  input.WriteReviewInput {
+    height: 2rem;
+    width: 80vw;
+  }
+}

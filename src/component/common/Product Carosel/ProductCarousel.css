@@ -1,0 +1,26 @@
+.ProductCarouselWrapper {
+  margin-top: 5rem;
+  height: 30rem;
+}
+
+.MainProductImages {
+  height: 100%;
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.MainProductImage {
+  border-radius: 1.8rem;
+}
+
+.carouselImage {
+  width: 47vw;
+  object-fit: contain;
+}
+
+.itemClass {
+  margin: 0 0;
+}

@@ -1,0 +1,247 @@
+.CartHeader {
+  padding-left: 2rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 5.4rem;
+  margin-top: 1rem;
+}
+
+.EmptyCartWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FillRequest {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.NotYet {
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 1.8rem;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.ContinueLink {
+  color: #3c83e6;
+  margin-top: 3.5rem;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.CartItemWrapper {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 2rem;
+  flex-direction: column;
+  margin: 0 4rem;
+}
+
+.CartItem {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 0.5fr;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cartImgProduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.CartImage {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 1.2rem;
+  object-fit: cover;
+}
+
+.CartProductName {
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.CartDeiveryDate {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.qtyWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Qty {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  width: 20rem;
+  border: 1px solid black;
+}
+
+.IncDec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  cursor: pointer;
+  width: 4rem;
+}
+
+.CartPriceMore {
+  display: flex;
+  justify-items: space-Between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.CartItemPrice {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.Delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.TotalCalWrapper {
+  margin: 5rem 4rem 0 4rem;
+}
+
+.CartItemHeader {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-bottom: 0rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.1px solid rgb(79, 78, 78);
+}
+
+.CartItemDetailsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CartItemPriceDetails {
+  width: 20rem;
+}
+
+.TotalCalDetails {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.TotalPrice {
+  border-top: 2px solid rgb(79, 78, 78);
+}
+
+.OrderSaveContinueWrapper {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.OrderNow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 20rem;
+  background-color: #3c83e6;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.OrderNow:hover {
+  background-color: #3c83e646;
+  color: black;
+}
+
+.SaveforLater {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 20rem;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.SaveforLater:hover {
+  background-color: rgba(140, 138, 138, 0.552);
+  color: black;
+}
+
+.ContinueShoping {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  height: 4rem;
+  width: 20rem;
+  background: linear-gradient(234.92deg, #46f2db -6.97%, #00a498 69.04%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.CartContShopingLink:hover {
+  background-color: rgba(232, 185, 185, 0.259);
+}
+
+.CartContinueShopingIcon {
+  width: 5rem;
+}

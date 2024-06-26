@@ -1,0 +1,13 @@
+.filter-topProduct {
+  margin: 3rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  gap: 1rem;
+}
+
+.categoryTopProduct {
+  margin: 0;
+  /* height: 35rem; */
+  overflow: hidden;
+  padding-left: 1rem;
+}

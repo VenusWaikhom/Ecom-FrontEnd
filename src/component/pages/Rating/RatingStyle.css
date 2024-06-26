@@ -1,0 +1,77 @@
+.WishListItemWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.WishListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.ImgIngfoStar {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.WishlistStar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.WishListInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.WishListProductName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.WishListQuantity {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.WishListDeliverDate {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #9a9a9a;
+}
+
+.WriteReview {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.WriteReviewHeading {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.WriteReviewInput {
+  height: 4rem;
+  width: 30rem;
+  border: none;
+  outline: none;
+  background-color: #e9e9e9;
+}

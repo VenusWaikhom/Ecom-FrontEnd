@@ -1,0 +1,256 @@
+.ProfileDetails {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+}
+
+.FlexWrapper {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+}
+
+.ProfileRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.ProfileInfoHeader {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 3rem;
+  letter-spacing: 0em;
+}
+
+.ProfliePicture {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+}
+
+.EditOption {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.EditIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.Edit {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0em;
+}
+
+.ProfileItems {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+.ProfileList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.ProfileIndex {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 41px;
+}
+
+.ProfileInfo {
+  background-color: #f3f3f3;
+  height: 2.6rem;
+  width: 18.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.GnederOption {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4rem;
+}
+
+.Gender {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.GenderType {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.Radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+}
+
+.ActiveGenderRadio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 0.6rem;
+  height: 0.6rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.Email {
+  width: 30rem;
+}
+
+.LinkItemWrapper {
+  align-self: center;
+}
+
+.ProfileLinkList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 20rem;
+}
+
+.ProfileLinkItem {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 18rem;
+  border-radius: 20px;
+}
+
+.ProfileLinkIcon {
+  margin-right: 0.7rem;
+  font-size: 1.6rem;
+}
+
+.ProfileLinkMyOrder {
+  background: linear-gradient(58deg, #0f0aa4 23.31%, #2992e3 117.48%);
+}
+
+.ProfileLinkAddress {
+  background: radial-gradient(
+    74.39% 74.39% at 47.71% 50.03%,
+    #4d50b6 3.07%,
+    #090770 100%
+  );
+}
+
+.ProfileLinkPayment {
+  background: linear-gradient(49.76deg, #cc0022 24.94%, #ff8db6 100.28%);
+}
+
+.ProfileLinkWishlist {
+  background: linear-gradient(
+    235.29deg,
+    #020aff -8.02%,
+    #23a3ff 31.36%,
+    #2489d2 68.48%,
+    #020eff 92.57%
+  );
+}
+
+.ProfileLinkCoupans {
+  background: linear-gradient(234.92deg, #46f2db -6.97%, #00a498 69.04%);
+}
+
+.ProfileLinkRating {
+  background: linear-gradient(235.35deg, #ffbe4e 2.75%, #e35b00 79.04%);
+}
+
+.ProfileLinkLogOut {
+  background-color: #f93b3b;
+  border: none;
+  border-radius: 0px;
+}
+
+.profileLoginInputsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.ProfileLoginInput {
+  width: 35rem;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.userpassInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Profileinput {
+  font-size: 1.2rem;
+  width: 30rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.ForgotPAsswordLink {
+  color: blue;
+  font-size: 1.1rem;
+}
+
+.Logsign {
+  display: flex;
+  gap: 5rem;
+}
+
+.LoginSignup {
+  font-size: 1rem;
+  width: 10rem;
+  height: 2rem;
+  font-weight: 600;
+}
